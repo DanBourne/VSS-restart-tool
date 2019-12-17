@@ -21,7 +21,7 @@ function Show-Menu
         Write-Host "6:  SQL Server Writer"
         Write-Host "7:  All VSS Writers"
         Write-Host "Q:  Quit"
-   }     
+ }     
 
 #Create a do/while loop to allow multiple services to be restarted individually   
 do {
@@ -47,8 +47,8 @@ switch ($Selection)
         }'Q' {
         return
         }
-        }
+     }
 
 }
  until ($selection -eq 'q')
- }
+}
